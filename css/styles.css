@@ -1,0 +1,171 @@
+
+html{ margin: 0px; padding: 0px; }
+
+body{
+  background:#fff;
+  font-family:arial ;
+ /* text-align: center;  */
+}
+
+#logo{
+  float: left;
+  clear: both;
+  margin: 10px;
+  padding: 10px;
+}
+
+#menu{
+   float: right;
+   margin: 10px;
+   padding: 10px;
+   text-align: left;
+   border-radius:10px;
+   border: 1px solid #ccc;
+   background-color: #F5DEB3;
+}
+
+#menu ul{
+   height: 20px;  
+   list-style: none;
+}
+
+#menu ul li{
+  float:left;
+  padding:5px 40px 5px 0;
+}
+
+#menu ul a{
+   clear: both;
+   padding: auto;
+   color: black;
+   font-size: 25px;
+   border-radius: 5px;
+   text-decoration: none;
+   background-color:#FFF;
+  margin:  5px 20px 5px 20px ;
+}
+
+#main{
+  clear: both;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  border-radius:5px;
+}
+
+#imagemPaginaPrincipal{
+  float: left;
+  padding: 20px;
+  font-size: 16px;
+}
+
+#imagemPaginaPrincipal .imgPequena{
+  width: auto;
+  float: left;
+  margin: 12px;
+  height: auto;
+  padding: auto;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.imgProduto{
+  float: left;
+  width: 210px;
+  height: 220px;
+  border: px solid #ccc;
+}
+
+#imagemPaginaPrincipal .comprar{
+  clear: both;
+  float: left;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  background: #F5DEB3;
+  border: 1px solid #ccc;
+  margin: 10px 10px 10px 40px;
+}
+
+#imagemPaginaPrincipal .destaque{
+  width: auto;
+  float: left;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto{
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto img{
+  float: left;
+  width: 600px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+#formulario{
+  margin: 20px;
+  padding: 30px;
+  float: center;
+  font-size: 15px;
+  text-align: justify;
+  border: px solid blue;
+}
+
+#formulario form{
+  margin: 0px;
+}
+
+#formulario form input{
+  width: 650px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 0 10px 0;
+  border: px solid blue;
+}
+
+#formulario form textarea{
+  width: 630px;
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+  border: px solid blue;
+}
+#formulario form button{
+  margin: 10px;
+  width: 200px;
+  padding: 10px;
+  float: center;
+  font-size: 20px;
+
+}
+
+#quemsomos{
+  float: right;
+  padding: 10px;
+  font-size: 15px;
+  text-align: justify;
+  border: px solid #ccc;
+}
+
+#footer{
+  clear: both;
+  width: auto;
+  margin: 15px;
+  float:center;
+  border-radius:5px;
+  text-align: center;
+  background: #F5DEB3;
+  border: 1px solid #ccc;
+}
